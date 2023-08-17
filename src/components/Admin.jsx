@@ -28,7 +28,7 @@ const Admin = () => {
   return (
     <Grid container>
       <Grid item xs={12} m={6}>
-        <Link to='/'>Back</Link>
+      <Button component={Link} to={'/'} variant="contained">Back</Button>
       </Grid>
       <Grid item xs={12} m={6}>
         <TextField id="outlined-basic" label="Word" variant="outlined" value={word} onChange={e => setWord(e.target.value)} />

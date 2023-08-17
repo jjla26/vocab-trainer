@@ -13,10 +13,10 @@ const Home = () => {
       </Grid>
       <Box display='container' justifyContent='center' alignItems='center' sx={{ height: '50vh' }}>
         <Grid item xs={4} m={6}>
-          <Link to='/practice'>Practicee</Link>
+          <Button component={Link} to={'/practice'} variant="contained">Practice</Button>
         </Grid>
         <Grid item xs={4} m={6}>
-          <Link to='/admin'>Admin</Link>
+          <Button component={Link} to={'/admin'} variant="contained">Admin</Button>
         </Grid>
       </Box>
     </React.Fragment>
